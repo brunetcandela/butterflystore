@@ -1,4 +1,5 @@
 import './navBar.css'
+import './CartWidget'
 
 function NavBar(){
     return <div className="navbar">
@@ -10,7 +11,7 @@ function NavBar(){
   <li><a href="contact.asp">Productos</a></li>
   <li><a href="about.asp">Contacto</a></li>
 </ul>
-    
+    <CartWidget />
     </div>
 }
 
